@@ -1,0 +1,100 @@
+body{
+background-color: #9EC7FF;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navigationbar{
+  position: fixed;
+  width: 100%;
+  background-color: transparent;
+  padding: 20px;
+  top: 0;
+  z-index: 100;
+  line-height: 20px;
+  font-size: 40px;
+  text-align: center;
+}
+
+ul li{
+  display:inline-block;
+}
+
+ul li a{
+color:white;
+padding:10px 20px;
+text-decoration: none;
+}
+
+ul li a:hover{
+  background-color:#db5071;
+  text-decoration: none;
+}
+.runningtitle1{
+  font-size: 60px;
+  text-align: center;
+  color: #FFFA8B;
+
+}
+.runningtitle2 {
+  font-size: 60px;
+  text-align: center;
+  color:#91a979;
+  text-shadow: 2px 2px white;
+
+}
+.runningtitle3 {
+  font-size: 60px;
+  text-align: center;
+  color: #FFFA8B;
+}
+h2{
+  text-align: center;
+  font-size: 35px;
+  text-shadow: 2px 2px white;
+}
+.gallery{
+  display: flex;
+  justify-content: space-around;
+}
+.GalleryPage{
+  background-color:#91a979;
+  background-size: cover;
+  color: black;
+  text-align: center;
+  padding-top: 85px;
+  padding-bottom: 15px;
+}
+.MenuPage{
+    background-color:#cad4ba;
+    background-size: cover;
+    color: black;
+    text-align: center;
+    padding-top: 85px;
+    padding-bottom: 15px;
+  }
+
+#container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+
+}
+
+.allignright{
+  display: flex;
+  align-items: flex-end;
+  font-family:serif;
+}
+
+p{
+text-align: center;
+font-size: 50px;
+font-weight: bolder;
+text-shadow: 2px 2px white;
+
+}
